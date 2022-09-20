@@ -17,19 +17,19 @@ public class User {
         User.name = name;
     }
 
-    public static String getPassword() {
+    public String getPassword() {
         return password;
     }
 
-    public static void setPassword(String password) {
+    public void setPassword(String password) {
         User.password = password;
     }
 
-    public static SpotifyAccount getAccount() {
+    public SpotifyAccount getAccount() {
         return account;
     }
 
-    public static void setAccount(SpotifyAccount account) {
+    public void setAccount(SpotifyAccount account) {
         User.account = account;
     }
 
