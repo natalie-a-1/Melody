@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class User {
     private static String name;
     private static String password;
@@ -31,6 +33,20 @@ public class User {
 
     public void setAccount(SpotifyAccount account) {
         User.account = account;
+    }
+
+    public Feed GetFeed() {
+        return new Feed();
+    }
+
+    public ArrayList<String> FavoriteSongs() {
+        ArrayList<String> temp = new ArrayList<String>();
+
+        temp.add("Song1");
+        temp.add("Song2");
+        temp.add("Song3");
+
+        return temp;
     }
 
 }
